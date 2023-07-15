@@ -1,0 +1,22 @@
+# 最小化按钮
+QToolButton#toolButton
+{
+   border:one;
+   image: url(:/qrc/min.png);
+}
+QToolButton#toolButton:hover
+{
+    background-color: rgba(255, 255, 255,200);
+    border-radius: 5px;
+}
+# 关闭按钮
+QToolButton#toolButton_2{
+    border:one;
+    image: url(:/qrc/up.png);
+}
+
+QToolButton#toolButton_2:hover{
+    border:one;
+    background-color: rgba(255, 255, 255,200);
+    border-radius: 5px;
+}
